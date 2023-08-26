@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{job.title}} - Violet Careers</title>
+  </head>
+  <body>
+    <h3>Title</h3>
+    <p>{{job.title}}</p>
+    <h3>Location</h3>
+    <p>{{job.location}}</p>
+    <h3>Salary</h3>
+    <p>{{job.currency}}{{job.salary}}</p>
+    <h3>Reseponsibilities</h3>
+    <p>{{job.responsibility}}</p>
+    <h3>Requirements</h3>
+    <p>{{job.requirenments}}</p>
+    
+    {% include 'application_form.html'%}
+    
+  </body>
+</html>
